@@ -63,10 +63,14 @@ p {
 .navigation__list {
   display: flex;
   list-style: none;
+  justify-content: space-around;
+  padding: 1rem 0;
+  margin: 0;
 }
 
 .navigation__item {
   padding: 0.5rem 0;
+  margin: 0 1rem;
 }
 
 .navigation__link {
@@ -96,7 +100,18 @@ p {
 /* Buttons */
 
   /* INSERT BUTTON STYLES HERE */
-
+button {
+  background-color: var(--orange-dark);
+  color: var(--white);
+  border: none;
+  padding: 0.4rem;
+}
+.button1{
+  background-color: var(--white);
+  color: var(--orange-dark);
+  border: none;
+  padding: 0.4rem;
+}
 
 /* Content */
 
